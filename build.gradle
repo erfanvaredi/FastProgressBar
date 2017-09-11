@@ -1,17 +1,7 @@
-//apply plugin: 'maven'
-//
-//group = 'com.erfanvaredi.fastprogressbar'
-//version = '1.0'
-//
-//uploadArchives {
-//    repositories {
-//        mavenLocal()
-//    }
-//}
 apply plugin: 'com.android.library'
 //apply plugin: 'maven'
 
-group='com.erfanvaredi.fastprogressbar'
+//group='com.erfanvaredi.fastprogressbar'
 
 
 android {
