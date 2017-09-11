@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_border_et"
+    android:orientation="vertical">
+
+    <ir.erfanvaredi.fastprogressbar.views.smoothpb.SmoothProgressBar
+        android:id="@+id/epb_smoothProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:indeterminate="true"
+        android:visibility="visible"
+        app:spb_colors="@array/colors_cyrusBit"
+        app:spb_mirror_mode="false"
+        app:spb_progressiveStart_activated="true"
+        app:spb_progressiveStart_speed="1.5"
+        app:spb_progressiveStop_speed="3.4"
+        app:spb_reversed="false"
+        app:spb_sections_count="1"
+        app:spb_speed="1.0"
+        app:spb_stroke_separator_length="0dp"
+        app:spb_stroke_width="6dp" />
+
+
+    <TextView
+        android:id="@+id/epb_textView_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="text"
+        android:padding="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#222222"
+        android:textStyle="bold" />
+</LinearLayout>
