@@ -88,9 +88,9 @@ FPB.with(this).setCancelable(false).setAsyncStepperTimer(3000, 5, true, new IAsy
 ### For Custom FastProgressBar:
 
 - First define the view with these ids (it's very important that you have <b>fpb_smoothProgressBar</b> and <b>fpb_textView_msg</b> ids as these have been mentioned on parent view.)
-<br/>
-fpb_custom_view.xml:
-<br/>
+
+-- fpb_custom_view.xml:
+
 ```groovy
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
