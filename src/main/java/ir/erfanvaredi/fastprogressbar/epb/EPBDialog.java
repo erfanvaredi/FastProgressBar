@@ -8,7 +8,7 @@ import android.view.Window;
 import android.widget.TextView;
 
 import ir.erfanvaredi.fastprogressbar.R;
-import ir.erfanvaredi.fastprogressbar.views.smoothpb.SmoothProgressBar;
+import ir.erfanvaredi.fastprogressbar.views.smoothpb.ESmoothProgressBar;
 
 /**
  * Created by erfanvaredi on 3/23/17.
@@ -16,15 +16,22 @@ import ir.erfanvaredi.fastprogressbar.views.smoothpb.SmoothProgressBar;
 //// TODO: 3/27/17  
 public class EPBDialog extends Dialog {
 
-    SmoothProgressBar smoothProgressBar;
+    ESmoothProgressBar smoothProgressBar;
     TextView textViewMsg;
 
     private Context mContext;
+    private int layoutId = 0;
 
     public EPBDialog(Context context) {
         super(context);
         this.mContext = context;
 
+    }
+
+    public EPBDialog(Context context, int resId, boolean customView) {
+        super(context);
+        this.mContext = context;
+        this.layoutId = resId;
     }
 
     public EPBDialog(Context context, int themeResId) {
@@ -41,13 +48,17 @@ public class EPBDialog extends Dialog {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.epb_layout);
+        if (layoutId != 0) {
+            setContentView(layoutId);
+        } else {
+            setContentView(R.layout.fpb_layout);
+        }
         getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        textViewMsg = (TextView) findViewById(R.id.epb_textView_msg);
-        smoothProgressBar = (SmoothProgressBar) findViewById(R.id.epb_smoothProgressBar);
+        textViewMsg = (TextView) findViewById(R.id.fpb_textView_msg);
+        smoothProgressBar = (ESmoothProgressBar) findViewById(R.id.fpb_smoothProgressBar);
     }
 
-    public void setMsg(String msg){
+    public void setMsg(String msg) {
         textViewMsg.setText(msg);
     }
 

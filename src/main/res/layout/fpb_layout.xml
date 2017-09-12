@@ -6,8 +6,8 @@
     android:background="@drawable/shape_border_et"
     android:orientation="vertical">
 
-    <ir.erfanvaredi.fastprogressbar.views.smoothpb.SmoothProgressBar
-        android:id="@+id/epb_smoothProgressBar"
+    <ir.erfanvaredi.fastprogressbar.views.smoothpb.ESmoothProgressBar
+        android:id="@+id/fpb_smoothProgressBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -26,7 +26,7 @@
 
 
     <TextView
-        android:id="@+id/epb_textView_msg"
+        android:id="@+id/fpb_textView_msg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="text"

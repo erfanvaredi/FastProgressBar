@@ -8,7 +8,7 @@ import android.view.View;
  * This is a copy of the ContentLoadingProgressBar from the support library, but extends
  * SmoothProgressBar.
  */
-public class ContentLoadingSmoothProgressBar extends SmoothProgressBar {
+public class ContentLoadingSmoothProgressBar extends ESmoothProgressBar {
 
   private static final int MIN_SHOW_TIME = 500; // ms
   private static final int MIN_DELAY = 500; // ms
