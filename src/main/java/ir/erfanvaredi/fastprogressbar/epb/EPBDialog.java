@@ -2,7 +2,6 @@ package ir.erfanvaredi.fastprogressbar.epb;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -25,8 +24,7 @@ public class EPBDialog extends Dialog {
     public EPBDialog(Context context) {
         super(context);
         this.mContext = context;
-        textViewMsg = (TextView) findViewById(R.id.epb_textView_msg);
-        smoothProgressBar = (SmoothProgressBar) findViewById(R.id.epb_smoothProgressBar);
+
     }
 
     public EPBDialog(Context context, int themeResId) {
@@ -34,7 +32,7 @@ public class EPBDialog extends Dialog {
         this.mContext = context;
     }
 
-    protected EPBDialog(Context context, boolean cancelable, DialogInterface.OnCancelListener cancelListener) {
+    protected EPBDialog(Context context, boolean cancelable, OnCancelListener cancelListener) {
         super(context, cancelable, cancelListener);
         this.mContext = context;
     }
@@ -45,7 +43,8 @@ public class EPBDialog extends Dialog {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.epb_layout);
         getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-
+        textViewMsg = (TextView) findViewById(R.id.epb_textView_msg);
+        smoothProgressBar = (SmoothProgressBar) findViewById(R.id.epb_smoothProgressBar);
     }
 
     public void setMsg(String msg){

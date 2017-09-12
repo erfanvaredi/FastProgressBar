@@ -18,11 +18,14 @@ import android.view.animation.Interpolator;
 
 import java.util.Locale;
 
-import static fr.castorflex.android.smoothprogressbar.SmoothProgressBarUtils.checkColors;
-import static fr.castorflex.android.smoothprogressbar.SmoothProgressBarUtils.checkNotNull;
-import static fr.castorflex.android.smoothprogressbar.SmoothProgressBarUtils.checkPositive;
-import static fr.castorflex.android.smoothprogressbar.SmoothProgressBarUtils.checkPositiveOrZero;
-import static fr.castorflex.android.smoothprogressbar.SmoothProgressBarUtils.checkSpeed;
+import ir.erfanvaredi.fastprogressbar.R;
+
+import static ir.erfanvaredi.fastprogressbar.views.smoothpb.SmoothProgressBarUtils.checkColors;
+import static ir.erfanvaredi.fastprogressbar.views.smoothpb.SmoothProgressBarUtils.checkNotNull;
+import static ir.erfanvaredi.fastprogressbar.views.smoothpb.SmoothProgressBarUtils.checkPositive;
+import static ir.erfanvaredi.fastprogressbar.views.smoothpb.SmoothProgressBarUtils.checkPositiveOrZero;
+import static ir.erfanvaredi.fastprogressbar.views.smoothpb.SmoothProgressBarUtils.checkSpeed;
+
 
 /**
  * Created by castorflex on 11/10/13.
