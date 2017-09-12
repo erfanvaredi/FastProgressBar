@@ -1,98 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="trans_txt_black">#c7000000</color>
-    <color name="trans_txt_pul">#7d000000</color>
-    <color name="trans_txt_tag">#005DA0</color>
-    <color name="trans_line">#6e000000</color>
-    <color name="white_tr">#17ffffff</color>
-
-    <color name="color_primary_red">#f44336</color>
-    <color name="color_primary_red_dark">#d32f2f</color>
-    <color name="color_primary_green">#4caf50</color>
-    <color name="color_primary_green_dark">#388e3c</color>
-    <color name="color_primary_blue">#2196f3</color>
-    <color name="color_primary_blue_dark">#1976d2</color>
-
-    <color name="color_accent_pink">#ff4081</color>
-    <color name="color_shadow">#44000000</color>
-    <color name="green">#03f914</color>
-    <color name="red">#f90303</color>
-
-    <color name="hashtag">#006DF0</color>
-
-    <color name="txt_gray">#999999</color>
-    <color name="clr_basiti">#cccccc</color>
-    <color name="txt_blk">#222222</color>
-    <color name="txt_blk_tr">#39222222</color>
-    <color name="txt_blk_tr2">#ca222222</color>
-    <color name="erfan_tr">#00222222</color>
-    <color name="dc_bg_toolbar">#fdfbda</color>
-    <color name="bg_white_tr">#a8ffffff</color>
-    <color name="tr_full">#00ffffff</color>
-
-    <!--<color name="ooooo">#</color>-->
-    <color name="purple">#c43ad2</color>
-    <color name="yellow">#fff400</color>
-    <color name="blue_holo">#00dfff</color>
-    <color name="white">#ffffff</color>
-    <color name="white_tr2">#3cffffff</color>
-    <color name="po_warning">#FCF8E3</color>
-    <color name="po_warning_text">#C0A17B</color>
-
-    <color name="erfan_bg">#F4F4F4</color>
-    <color name="erfan_base_color">#0277bd</color>
-    <color name="cyan_800">#00838f</color>
-    <color name="ep">#9C27B0</color>
-    <color name="erfan_bwm">#125688</color>
-    <color name="erfan_blue_warm_95tr">#125688cc</color>
-    <color name="gray_tr">#66999999</color>
-
-    <color name="hot_green">#1c6276</color>
-    <color name="hot_green_dark">#103c49</color>
-    <color name="melow_yellow">#ddb719</color>
-    <color name="melow_yellow_harder">#a4870f</color>
-    <color name="melow_yellow_selected">#c1a016</color>
-    <color name="warm_green">#1e6d06</color>
-    <color name="melow_black">#868686</color>
-    <color name="gray">#b6b6b6</color>
-    <color name="good_green">#107c10</color>
-    <color name="good_red">#b60000</color>
-    <color name="barnacle">#db0e7f</color>
-    <color name="sadafi">#f5f5f5</color>
-    <color name="sadafi_v2">#f0f0f0</color>
-    <color name="bg_gray">#d0d0d0</color>
-    <color name="bg_gray_daneshvar">#f7f7f7</color>
-    <color name="melow_gray">#aaaaaa</color>
-    <color name="blue_v2">#2b95b4</color>
-    <color name="orange">#f6872a</color>
-    <color name="red_cute">#b8204e</color>
-    <color name="green_tired">#a6a739</color>
-    <color name="black">#000000</color>
-    <color name="black_morelight">#191919</color>
-    <color name="black_morelight_v2">#323232</color>
-    <color name="violet">#692b85</color>
-    <color name="white_harder_v2">#cccccc</color>
-    <color name="white_harder">#e5e5e5</color>
-    <color name="textColorPrimary">#FFFFFF</color>
-    <color name="windowBackground">#FFFFFF</color>
-    <color name="navigationBarColor">#000000</color>
-    <color name="dark_teal">#004D40</color>
-    <color name="teal">#008080</color>
-
-    <color name="airport_bg_light">#56534E</color>
-    <color name="airport_bg_dark">#45433F</color>
-    <color name="google_head">#F1F1F1</color>
-
     <integer-array name="colors_cyrusBit">
         <item>@color/holo_blue_dark</item>
         <item>@color/holo_blue_dark_95tr</item>
     </integer-array>
 
-    <integer-array name="colors">
-        <item>@color/holo_yellow_dark</item>
-        <item>@color/erfan_tr</item>
-    </integer-array>
 
     <integer-array name="colors2">
         <item>@color/holo_blue_dark</item>
@@ -136,10 +49,6 @@
         <item>@color/pocket_color_4</item>
     </integer-array>
 
-    <integer-array name="month_smooth">
-        <item>@color/erfan_base_color</item>
-        <item>@color/erfan_blue_warm_95tr</item>
-    </integer-array>
 
 
     <color name="pocket_color_1">#85edb9</color>
@@ -161,10 +70,5 @@
     <color name="holo_purple_dark">#9933cc</color>
     <color name="holo_red_dark">#cc0000</color>
 
-    <color name="ebasket_row_bg_header">#4D4B4B</color>
-    <color name="ebasket_row_bg_darker">#F7F7F7</color>
-    <color name="ebasket_row_bg_lighter">#ffffff</color>
-    <color name="ebasket_row_bg_total">#083346</color>
-    <color name="ebasket_row_bg_txt">#8A8A8A</color>
 
 </resources>
