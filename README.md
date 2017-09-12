@@ -134,6 +134,13 @@ FPB.with(this).setCancelable(false).setAsyncStepperTimer(3000, 5, true, new IAsy
 FPB.with(this).setView(R.layout.my_custom_fpb).show("Custom View");
 ```
 
+### End/Stop FastProgressBar:
+
+```groovy
+FPB.dismiss();
+```
+
+
 ## License
 ```groovy
 Free to use and develop.
