@@ -21,7 +21,7 @@ allprojects {
 
 ```groovy
 dependencies {
-        compile 'com.github.erfanvaredi:FastProgressBar:0.9.6'
+        compile 'com.github.erfanvaredi:FastProgressBar:0.9.9'
 }
 ```
 
@@ -43,7 +43,7 @@ dependencies {
 <dependency>
     <groupId>com.github.erfanvaredi</groupId>
     <artifactId>FastProgressBar</artifactId>
-    <version>0.9.6</version>
+    <version>0.9.9</version>
 </dependency>
 ```
 
