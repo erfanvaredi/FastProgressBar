@@ -66,7 +66,6 @@ public class FPB implements IFPB{
     @Override
     public FPB setAsyncStepperTimer(long waitingTimeMilliSecond, int step, IAsyncFPBCallback callback) {
         this.iAsyncFpbCallback = callback;
-
         this.timerType = TIMER_TYPE_ASYNC_STEPPER;
         if (step > 0) {
             this.step = step;
