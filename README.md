@@ -149,8 +149,10 @@ Free to use and develop.
 :)
 ```
 
-## Developer
+## Thanks
 
-Delevoped with love by [@erfanvaredi][1]
-
-[1]: https://github.com/erfanvaredi/
+Delevoped with love by [@erfanvaredi](https://github.com/erfanvaredi/)
+</br>
+Please follow me on [LinkedIn](https://www.linkedin.com/in/erfanvaredi)
+</br>
+Appreciate it :)
